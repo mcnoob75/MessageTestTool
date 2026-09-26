@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@drawable/bubble_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Test Tool"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="top|start"
+        android:hint="Mensagem de teste..."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#7F8799"
+        android:textSize="14sp"
+        android:background="#1B202B"
+        android:padding="12dp"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade de testes"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#7F8799"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="#1B202B"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Intervalo (ms)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#7F8799"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="#1B202B"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: parado"
+        android:textColor="#AEB5C7"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testes realizados: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Iniciar"
+            android:textAllCaps="false"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Parar"
+            android:textAllCaps="false"
+            android:layout_marginStart="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fechar"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
