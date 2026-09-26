@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Message Test Tool</string>
+    <string name="app_description">Ferramenta de teste de mensagens</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Parar</string>
+    <string name="close">Fechar</string>
+</resources>
