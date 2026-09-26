@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1117"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message Test Tool"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ferramenta de teste de mensagens"
+            android:textColor="#8B93A7"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STATUS"
+            android:textColor="#7C8CFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvOverlayStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overlay: verificando..."
+            android:textColor="#E4E7EF"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:background="#191D27"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvAccessibilityStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acessibilidade: verificando..."
+            android:textColor="#E4E7EF"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:background="#191D27"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONFIGURAÇÃO"
+            android:textColor="#7C8CFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRequestOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Permitir janela flutuante"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOpenAccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Ativar Acessibilidade"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartFloating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Abrir bolinha flutuante"
+            android:textAllCaps="false"
+            android:layout_marginBottom="28dp"
+            style="@style/Widget.Material3.Button.TonalButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMO USAR"
+            android:textColor="#7C8CFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ative as duas permissões acima&#10;&#10;2. Abra a bolinha flutuante&#10;&#10;3. Abra o aplicativo de destino&#10;&#10;4. Toque no campo de texto&#10;&#10;5. Configure a ferramenta e inicie o teste"
+            android:textColor="#AEB5C7"
+            android:textSize="14sp"
+            android:lineSpacingExtra="3dp" />
+
+    </LinearLayout>
+
+</ScrollView>
